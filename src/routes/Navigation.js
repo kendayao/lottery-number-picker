@@ -1,13 +1,16 @@
-import React from 'react'
+import {React, Fragment} from 'react'
 import { Outlet } from 'react-router-dom'
+import './Navigation.css'
 
 function Navigation(){
 
     return(
-        <div>
-            <h1>This is the Navigation</h1>
-        <Outlet/>
+            <Fragment>
+        <div className='navigation'>
+            <p className='navigation_link'>HOW TO PLAY</p>
         </div>
+         <Outlet/>
+         </Fragment>
     )
 }
 

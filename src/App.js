@@ -11,8 +11,8 @@ function App() {
    <Routes>
     <Route path='/' element={<Navigation/>}>
       <Route index element={<Home/>}/>
-      <Route path='powerball' element={<MegaMillion/>}/>
-      <Route path='megamillion' element={<Powerball/>}/>
+      <Route path='powerball' element={<Powerball/>}/>
+      <Route path='megamillion' element={<MegaMillion/>}/>
     </Route>
    </Routes>
   );
