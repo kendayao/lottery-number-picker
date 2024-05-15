@@ -15,9 +15,7 @@ function App() {
       <Route index element={<Home/>}/>
       <Route path='powerball' element={<Powerball/>}/>
       <Route path='megamillion' element={<MegaMillion/>}/>
-      
     </Route>
-   
    </Routes>
    <Footer/>
    </div>
