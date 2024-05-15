@@ -1,9 +1,12 @@
 .navigation{
     display:flex;
     justify-content: flex-end;
+    width: 100%;
+    
     
 }
 
-.navigation_link{
+.navigation__link{
     margin-right: 20px;
+    font-size: 20px;
 }

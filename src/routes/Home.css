@@ -1,0 +1,29 @@
+.home{
+margin-bottom: 100px;
+margin-top: 100px;
+}
+
+.home__body{
+    width: 20%; 
+    padding: 10% 0;
+    margin: auto;
+    text-align: center;
+ 
+    
+}
+
+.home__body h1 {
+    font-size: 45px;
+}
+
+
+.home__buttons{
+    display: flex;
+    justify-content: space-evenly
+}
+
+button {
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 10px;
+}

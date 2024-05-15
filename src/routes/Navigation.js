@@ -5,11 +5,11 @@ import './Navigation.css'
 function Navigation(){
 
     return(
-            <Fragment>
-        <div className='navigation'>
-            <p className='navigation_link'>HOW TO PLAY</p>
-        </div>
-         <Outlet/>
+        <Fragment>
+            <div className='navigation'>
+                <p className='navigation__link'>HOW TO PLAY</p>
+            </div>
+            <Outlet/>
          </Fragment>
     )
 }
