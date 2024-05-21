@@ -1,13 +1,19 @@
 import {React, Fragment} from 'react'
-import { Outlet } from 'react-router-dom'
+import { Outlet, useLocation, Link } from 'react-router-dom'
 import './Navigation.css'
 
 function Navigation(){
 
+    const pageLocation = useLocation()
+
+    console.log(pageLocation.pathname)
+
     return(
         <Fragment>
             <div className='navigation'>
-                <p className='navigation__link'>HOW TO PLAY</p>
+                {pageLocation.pathname === '/'? 
+                <Link className='navigation__link'>HOW TO PLAY</Link>:
+                <Link className='navigation__link' to='/'>RETURN TO HOME</Link>}
             </div>
             <Outlet/>
          </Fragment>

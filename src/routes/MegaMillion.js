@@ -4,7 +4,9 @@ import './MegaMillion.css'
 function MegaMillion(){
     
     return(
-        <h1>Megamillion numbers</h1>
+        <div>
+            
+        </div>
     )
 }
 
