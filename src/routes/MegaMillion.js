@@ -4,8 +4,15 @@ import './MegaMillion.css'
 function MegaMillion(){
     
     return(
-        <div>
-            
+        <div className='megamillion'>
+            <div className='megamillion__container'>
+                <p>content</p>
+                <p>content</p>
+                <p>content</p>
+                <p>content</p>
+                <p>content</p>
+                <p>content</p>
+            </div>
         </div>
     )
 }
