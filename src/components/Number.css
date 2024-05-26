@@ -1,0 +1,15 @@
+.number{
+    font-size: 60px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.number:not(:last-child){
+    margin-right: 10px;
+}
+
+.number:last-child{
+    background-color: #ebd230;
+    color: white;
+}
