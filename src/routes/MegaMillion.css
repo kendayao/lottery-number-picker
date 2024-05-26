@@ -1,13 +1,40 @@
 .megamillion{
-    margin-top: 100px;
-    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
 }
 
 .megamillion__container{
-    height: 700px;
     width: 50%;
-    margin-left: auto;
-    margin-right: auto;
     text-align: center;
 }
 
+.megamillion__image{
+    width: 300px;
+    height: 270px;
+   
+}
+
+.megamillion__body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    
+}
+.megamillion__body p{
+    font-size: 60px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.megamillion__body p:not(:last-child){
+    margin-right: 10px;
+}
+
+.megamillion__body p:last-child{
+    background-color: #ebd230;
+    color: white;
+}
