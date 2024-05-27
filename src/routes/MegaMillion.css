@@ -29,5 +29,6 @@
     font-size: 12px;
     padding: 5px;
     border-radius: 10px;
+    border: none;
     cursor: pointer;
 }
