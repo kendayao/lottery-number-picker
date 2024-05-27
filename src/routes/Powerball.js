@@ -2,8 +2,11 @@ import React, {useState,useEffect} from 'react'
 import './Powerball.css'
 import Number from '../components/Number'
 import { powerBallNumbersData, powerNumbersData } from '../number-data'
+import {useLocation} from 'react-router-dom'
 
 function Powerball(){
+    const pageLocation = useLocation()
+    console.log(pageLocation)
     const [powerBallNumbers, setPowerBallNumbers]=useState([])
     const [powerNumber, setPowerNumber]=useState('')
  
@@ -56,7 +59,7 @@ function Powerball(){
                 <div className='powerball__body'>
                     {powerBallNumbers.map((powerBallNumber)=>
                     <Number key={powerBallNumbers.indexOf(powerBallNumber)} number={powerBallNumber}/>)}
-                    <Number number={powerNumber}/>
+                    <Number pageLocation={pageLocation.pathname} number={powerNumber}/>
                 </div>
                 <button className='generate__number__button' onClick={getNewNumbers}>Generate New Numbers</button>
             </div>

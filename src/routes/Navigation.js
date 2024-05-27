@@ -6,8 +6,6 @@ function Navigation(){
 
     const pageLocation = useLocation()
 
-    console.log(pageLocation.pathname)
-
     return(
         <Fragment>
             <div className='navigation'>

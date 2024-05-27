@@ -2,9 +2,13 @@ import React, {useState,useEffect} from 'react'
 import './MegaMillion.css'
 import Number from '../components/Number'
 import {megaMillionNumbersData, megaNumbersData} from '../number-data'
+import {useLocation} from 'react-router-dom'
 
 
 function MegaMillion(){
+
+    const pageLocation = useLocation()
+    console.log(pageLocation)
 
    const [megaMillionNumbers, setMegaMillionNumbers]=useState([])
    const [megaNumber, setMegaNumber]=useState('')
@@ -56,7 +60,7 @@ function MegaMillion(){
                 <div className='megamillion__body'>
                     {megaMillionNumbers.map((megaMillionNumber)=>
                     <Number key={megaMillionNumbers.indexOf(megaMillionNumber)} number={megaMillionNumber}/>)}
-                    <Number number={megaNumber}/>
+                    <Number pageLocation={pageLocation.pathname} number={megaNumber}/>
                 </div>
                 <button className='generate__number__button' onClick={getNewNumbers}>Generate New Numbers</button>
             </div>

@@ -10,7 +10,14 @@
     margin-right: 10px;
 } 
 
-.number:last-child{
+
+.number__meganumber__style{
     background-color: #ebd230;
     color: white;
-} 
+}
+
+.number__powerball__style{
+    background-color: #db0b23;
+    color: white;
+}
+
