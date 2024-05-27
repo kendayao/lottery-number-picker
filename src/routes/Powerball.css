@@ -1,0 +1,34 @@
+.powerball{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
+
+.powerball__container{
+    width: 50%;
+    text-align: center;
+}
+
+.powerball__image{
+    width: 400px;
+    height: 150px;
+   
+}
+
+.powerball__body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    
+}
+
+.generate__number__button {
+    margin-top: 15px;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
