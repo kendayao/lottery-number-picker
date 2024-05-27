@@ -10,7 +10,7 @@ function Navigation(){
         <Fragment>
             <div className='navigation'>
                 {pageLocation.pathname === '/'? 
-                <Link className='navigation__link'>HOW TO PLAY</Link>:
+                <Link className='navigation__link' to='howtoplay'>HOW TO PLAY</Link>:
                 <Link className='navigation__link' to='/'>RETURN TO HOME</Link>}
             </div>
             <Outlet/>

@@ -1,0 +1,40 @@
+.howtoplay{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    height: 800px;
+}
+
+.howtoplay__container{
+    width: 50%;
+}
+
+h1{
+    text-align: center;
+}
+
+.howtoplay__image {
+   display: flex;
+}
+
+.howtoplay__image div{
+width: 30px;
+height: 30px;
+border-radius: 50%;
+border: 1px solid black;
+margin-right: 5px;
+font-size: 10px;;
+}
+
+.howtoplay__image .howtoplay__mega{
+    background-color: #ebd230;
+}
+
+
+.howtoplay__image .howtoplay__power{
+    background-color: #db0b23;
+}
+
+.howtoplay__container h3{
+    margin-top: 40px;
+}

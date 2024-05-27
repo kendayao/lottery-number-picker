@@ -6,6 +6,7 @@ import Home from './routes/Home';
 import MegaMillion from './routes/MegaMillion';
 import Powerball from './routes/Powerball';
 import Footer from './components/Footer'
+import Howtoplay from './routes/Howtoplay'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Route index element={<Home/>}/>
       <Route path='powerball' element={<Powerball/>}/>
       <Route path='megamillion' element={<MegaMillion/>}/>
+      <Route path='howtoplay' element={<Howtoplay/>}/>
     </Route>
    </Routes>
    <Footer/>
