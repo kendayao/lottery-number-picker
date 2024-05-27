@@ -20,21 +20,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 25px;
+    margin-left: 5px;
     
 }
-.megamillion__body p{
-    font-size: 60px;
-    border: 1px solid black;
-    border-radius: 50%;
-    padding: 15px;
-}
 
-.megamillion__body p:not(:last-child){
-    margin-right: 10px;
-}
-
-.megamillion__body p:last-child{
-    background-color: #ebd230;
-    color: white;
+.generate__number__button {
+    margin-top: 15px;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
 }

@@ -16,12 +16,10 @@ function Home(){
             <div className='home__body'>
                 <h1>Pick your game</h1>
                 <div className='home__buttons'>
-                    <button onClick={goToMegaMillion}>Megamillion</button>
-                    <button onClick={goToPowerball}>Powerball</button>
+                    <button className='home__button' onClick={goToMegaMillion}>Megamillion</button>
+                    <button className='home__button' onClick={goToPowerball}>Powerball</button>
                 </div>
             </div>
-          
-            
         </div>
     )
 }
