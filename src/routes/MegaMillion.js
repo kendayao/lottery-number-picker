@@ -70,5 +70,6 @@ function MegaMillion(){
 
 //test
 //test
+//test
 
 export default MegaMillion
