@@ -68,9 +68,6 @@ function MegaMillion(){
     )
 }
 
-//test
-//test
-
 
 
 

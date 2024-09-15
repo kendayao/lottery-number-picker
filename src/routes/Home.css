@@ -1,11 +1,11 @@
 .home{
-height: 800px;
 display: flex;
 justify-content: center;
 align-items: center;
 }
 
 .home__body{
+    margin: 15%;
     width: 50%; 
     text-align: center;
  

@@ -2,12 +2,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 800px;
+    
 }
 
 .megamillion__container{
     width: 50%;
     text-align: center;
+    margin-top:7%;
 }
 
 .megamillion__image{
@@ -31,4 +32,28 @@
     border-radius: 10px;
     border: none;
     cursor: pointer;
+}
+
+@media (max-width: 773px){
+    .megamillion__image{
+        width: 210px;
+        height: 200px;
+       
+    }
+}
+
+@media (max-width: 534px){
+    .megamillion__image{
+        width: 210px;
+        height: 200px;
+       
+    }
+}
+
+@media (max-width: 430px){
+    .megamillion__image{
+        width: 180px;
+        height: 150px;
+       
+    }
 }

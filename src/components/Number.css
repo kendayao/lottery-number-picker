@@ -21,3 +21,30 @@
     color: white;
 }
 
+@media (max-width: 773px){
+    .number{
+        font-size: 40px;
+        padding: 10px;
+        min-width: 75px;
+       
+    }
+}
+
+@media (max-width: 534px){
+    .number{
+        font-size: 30px;
+        padding: 8px;
+        min-width: 60px;
+       
+    }
+}
+
+
+@media (max-width: 423px){
+    .number{
+        font-size: 20px;
+        padding: 6px;
+        min-width: 40px;
+       
+    }
+}
