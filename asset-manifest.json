@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.de528de2.css",
-    "main.js": "/static/js/main.0335eebb.js",
-    "index.html": "/index.html",
-    "main.de528de2.css.map": "/static/css/main.de528de2.css.map",
-    "main.0335eebb.js.map": "/static/js/main.0335eebb.js.map"
+    "main.css": "/Lottery-Number-Picker/static/css/main.de528de2.css",
+    "main.js": "/Lottery-Number-Picker/static/js/main.0335eebb.js",
+    "index.html": "/Lottery-Number-Picker/index.html",
+    "main.de528de2.css.map": "/Lottery-Number-Picker/static/css/main.de528de2.css.map",
+    "main.0335eebb.js.map": "/Lottery-Number-Picker/static/js/main.0335eebb.js.map"
   },
   "entrypoints": [
     "static/css/main.de528de2.css",
