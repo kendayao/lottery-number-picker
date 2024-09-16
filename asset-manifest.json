@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Lottery-Number-Picker/static/css/main.de528de2.css",
-    "main.js": "/Lottery-Number-Picker/static/js/main.0335eebb.js",
+    "main.js": "/Lottery-Number-Picker/static/js/main.e809107a.js",
     "index.html": "/Lottery-Number-Picker/index.html",
     "main.de528de2.css.map": "/Lottery-Number-Picker/static/css/main.de528de2.css.map",
-    "main.0335eebb.js.map": "/Lottery-Number-Picker/static/js/main.0335eebb.js.map"
+    "main.e809107a.js.map": "/Lottery-Number-Picker/static/js/main.e809107a.js.map"
   },
   "entrypoints": [
     "static/css/main.de528de2.css",
-    "static/js/main.0335eebb.js"
+    "static/js/main.e809107a.js"
   ]
 }
