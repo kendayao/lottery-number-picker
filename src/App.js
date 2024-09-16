@@ -12,7 +12,7 @@ function App() {
   return (
     <div>
    <Routes>
-    <Route path='/lottery-number-picker' element={<Navigation/>}>
+    <Route path='/' element={<Navigation/>}>
       <Route index element={<Home/>}/>
       <Route path='powerball' element={<Powerball/>}/>
       <Route path='megamillion' element={<MegaMillion/>}/>
