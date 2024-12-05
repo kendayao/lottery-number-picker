@@ -5,7 +5,7 @@ import './Navigation.css'
 function Navigation(){
 
     const pageLocation = useLocation()
-
+    console.log(pageLocation)
     return(
         <Fragment>
             <div className='navigation'>
