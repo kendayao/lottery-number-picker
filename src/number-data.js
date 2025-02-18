@@ -29,15 +29,15 @@ export const megaMillionNumbersData = [
 
 export const megaNumbersData = [
     18,
-3,
-4,
-11,
-24,
-1,
-13,
-25,
-7,
-19
+    3,
+    4,
+    11,
+    24,
+    1,
+    13,
+    25,
+    7,
+    19
 
 ]
 
@@ -45,45 +45,44 @@ export const megaNumbersData = [
 
 export const powerBallNumbersData = [
 
-    33,
-    36,
-    24,
-    47,
-    37,
-    19,
     27,
-    69,
-    21,
-    39,
-    61,
-    68,
-    63,
+    33,
+    24,
+    12,
     9,
+    21,
+    47,
     64,
+    19,
     31,
-    2,
-    11,
-    44,
-    62,
-    6,
     38,
     66,
+    43,
+    1,
+    2,
+    4,
+    39,
+    45,
     67,
-    55
+    69,
+    11,
+    44,
+    54,
+    26,
 ]
 
 
 export const powerNumbersData = [
     4,
     14,
-    5,
-    7,
-    9,
     21,
+    9,
+    5,
     23,
-    26,
-    25,
-    18
+    20,
+    1,
+    3,
+    7,
 ]
 
 
