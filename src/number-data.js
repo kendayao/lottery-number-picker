@@ -81,7 +81,7 @@ export const powerNumbersData = [
     1,
     5,
     23,
-    25
+    
     
 ]
 
