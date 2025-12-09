@@ -18,7 +18,7 @@ function Howtoplay(){
                     <div className='howtoplay__mega'></div>
                 </div>
                 <h3>Powerball</h3>
-                <p>For the powerball game, the lottery number picker app will select five numbers and one power number. The power number will be the red ball.</p>
+                <p>For the powerball game, the lottery number picker app will select five numbers and one power number. The power number will be the red ball.lsw</p>
                 <div className='howtoplay__image'>
                     <div></div>
                     <div></div>
